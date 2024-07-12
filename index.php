@@ -1,4 +1,17 @@
-
+<?php 
+/**
+* Plugin Name: Discount Game
+* Plugin URI: 
+* Description: 
+* Version: 0.13
+* Requires at least: 5.6
+* Requires PHP: 8.1.29
+* Author: krtv-m
+* Text Domain: DG
+* Domain Path: /languages
+* Copyright 2024 - discount game
+*/
+?>
 <html>
   <body id="t" i18n-values=".style.fontFamily:fontfamily;.style.fontSize:fontsize" jstcache="0" class="offline" style="font-family: &quot;Segoe UI&quot;, Tahoma, sans-serif; font-size: 75%;">
     <style>
@@ -6,15 +19,7 @@
       html {
         overflow: hidden;
       }
-      /*.offline {
-        transition: -webkit-filter 1.5s cubic-bezier(0.65, 0.05, 0.36, 1),
-        background-color 1.5s cubic-bezier(0.65, 0.05, 0.36, 1);
-        will-change: -webkit-filter, background-color;
-      }
-      .offline.inverted {
-        -webkit-filter: invert(100%);
-        background-color: #625544;
-      }*/
+
       .offline .interstitial-wrapper {
         display: flex;
         justify-content: center;
